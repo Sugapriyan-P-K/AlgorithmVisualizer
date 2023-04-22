@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort Algorithm</title>
+    <script src="{% static 'sortingAlgorithm/app.js' %}"></script>
+    <!-- <script src="{% static 'sortingAlgorithm/Algorithms/Bubblesort.js' %}"></script> -->
+    <link rel="stylesheet" href="{% static 'sortingAlgorithm/style.css' %}">
+</head>
+<body>
+    {% comment %} <nav class="navbar">
+        <div class="navbar-container container">
+            <h1 class="logo"><a id="no" href="{% url 'home' %}">Algo Ocular</a></h1>
+        </div>
+    </div> {% endcomment %}
+    <button id="forNotes">Notes</button>
+    <div class="container">
+        <div class="bars_container" id="bars_container">
+        <!-- bar goes here -->
+        </div>
+        <!-- <input type="range" id="slider" min="50" max="50" step="5" value="50"> -->
+        <div class="buttons_container">
+            <select id="speed">
+                <option value="1000">slow</option>
+                <option value="50">Medium</option>
+                <option value="10">Fast</option>
+            </select>
+            <select id="algorithm">
+                <option value="bubbleSort">Bubble Sort</option>
+                <option value="insertionSort">Insertion Sort</option>
+                <option value="selectionSort">Selection Sort</option>
+                <option value="heapSort">Heap Sort</option>
+                <option value="mergeSort">Merge Sort</option>
+                <option value="quickSort">Quick Sort</option>
+            </select>
+            <button id="randomize_array_btn">Randomize Array</button>
+            (OR)
+            <input type="text" autofocus placeholder="3,4,9,4,8,1,7,8,4" id="forNow">
+            <button id="sort_btn">Sort</button>
+            <div id="myNotes" class="notes">
+                <div class="note-content">
+                  <div class="note-header">
+                    <span class="close">&times;</span>
+                    <h2>Modal Header</h2>
+                  </div>
+                  <div class="note-body" id="note">
+                    <p>Some text in the Modal Body</p>
+                  </div>
+                  <button id="copy-button">Copy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
