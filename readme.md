@@ -35,3 +35,9 @@ after setup all the requiremets change directory to the root folder where the ma
 CMD:
 
 `python manage.py runserver`
+
+```
+pip install -r requirements.txt
+```
+
+This will install all the necessary libraries and frameworks for this application to run on local server
