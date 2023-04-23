@@ -4,37 +4,53 @@ Going to create a algorithm visualizer
     
 * CMD to install virtual env: 
     
-`pip install pipenv or pip install virtualenv`
+```
+pip install pipenv or pip install virtualenv
+```
     
 * if pipenv:
  
 CMD:
         
-`pipenv shell`  - to activate package pipfile
+```
+pipenv shell
+```
+- to activate package pipfile
 
 CMD:
 
-`pipenv install package ` - to install all the packages in pipfile
+```
+pipenv install package 
+```
+- to install all the packages in pipfile
 
 if virtualenv:
 
 CMD:
 
-`vitualenv env`
+```
+vitualenv env
+```
 
 CMD Windows:
 
-`. env/scripts/activate`
+```
+. env/scripts/activate
+```
 
 linux:
 
-`. env/bin/activate`
+```
+. env/bin/activate
+```
 
 after setup all the requiremets change directory to the root folder where the manage.py is present and run the following command
 
 CMD:
 
-`python manage.py runserver`
+```
+python manage.py runserver
+```
 
 ```
 pip install -r requirements.txt
