@@ -1,14 +1,4 @@
-// import * as Algorithms from 'Algorithms'
-// all imprt method tried are failed
-// include('/Algorithms/Bubblesort.js');
-// function include(file) {
-//     var script = document.createElement('script');
-//     script.src = file;
-//     script.type = 'text/javascript';
-//     document.getElementsByTagName('head').item(0).appendChild(script);
-// }
-// include function will not work because we have parameters
-// i think i need to restructure everything
+
 document.addEventListener("DOMContentLoaded", function () {
     let random_array = document.getElementById("randomize_array_btn");
     let sort_btn = document.getElementById("sort_btn");
