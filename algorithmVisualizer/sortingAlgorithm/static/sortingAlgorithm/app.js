@@ -438,36 +438,3 @@ document.addEventListener("DOMContentLoaded", function () {
     noteBtn.addEventListener("click", showNotes);
     copyButton.addEventListener("click", copyTextHandler);
 });
-/*
-Bubble sort, also known as sinking sort, is the easiest sorting algorithm. It works on the idea of repeatedly comparing the adjacent elements, from left to right, and swapping them if they are out-of-order.
-In bubble sort, the repetition continues till the list we get the sorted list. Bubble compares all the elements in a list successively and sorts them based on their values.
-1Start with the first element.
-2Compare the current element with the next element.
-3If the current element is greater than the next element, then swap both the elements. If not, move to the next element.
-4Repeat steps 1 – 3 until we get the sorted list.
-Bubble Sort Algorithm
-Run a loop over the entire list or array.
-Compare the element at the index i with the element at i + 1.
-If the element at i is greater than the element at i + 1, swap both the elements
-Else, move to the next element.
-begin bubbleSort(array)
- 
-   for i = 0 to sizeof(array) - 1    
- 
-    for j = 0 to sizeof(array) - i - 1
-        if array[j] > array[j+1]
-             swap(array[i], array[i+1])
-        end if
-     end for
-   
-   end for
- 
-end bubbleSort
- bubble sort usually necessitates n(n-1)/2 swaps or comparisons to achieve a sorted array.
-
-The bubble sort algorithm’s average/worst time complexity is O(n²), as we have to pass through the array as many times as there are pairs in a provided array. Therefore, when time is a factor, there may be better options.
-
-Time complexity Worst Case: O(n²)
-Time complexity Average Case: O(n²)
-Time complexity Best Case: O(n), the array is already sorted
-*/
