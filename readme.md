@@ -58,5 +58,3 @@ pip install -r requirements.txt
 
 This will install all the necessary libraries and frameworks for this application to run on local server
 
-# For Now sorting visualizer is conmpleted
-remaining under construction
